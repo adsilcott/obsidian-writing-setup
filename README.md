@@ -20,6 +20,6 @@ It uses a few custom templates that are the heart of the system.
 - Writing Planning Template (optional)
 
 It uses two snippets
-- writing_style.css - this makes the scene view an attractive dark on light page that draws your attention to it and helps to differentiate the writing pages from other note pages. It allows for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is one of the best writing fonts out there. Horizontal lines become three dots. Line lengths are capped for easier reading. It's great
+- writing_style.css - this makes the scene view an attractive dark on light page that draws your attention to it and helps to differentiate the writing pages from other note pages. It allows for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is one of the best writing fonts out there. Horizontal lines become three dots. Line lengths are capped for easier reading. I've spent a lot of time creating a writing page that I want to look at, and i think it's great.
 - hide_properties.css does just that, It's optional. Hover over the property title to see them. Helps you to focus on the text.
 
