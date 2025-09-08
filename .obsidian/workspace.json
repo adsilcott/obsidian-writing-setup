@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "785edc0e7647a45a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f721b8615d0713a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a868520b541cd748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instructions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Instructions"
+            }
+          },
+          {
+            "id": "be1e728b1ab533b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writing Projects Homepage"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "41f236a0f93c1b90",
+    "type": "split",
+    "children": [
+      {
+        "id": "174dbc3988d3931f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31e44ac1bc56babf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "742b7068dee18842",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2971863dee31971c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4293dd4439d4d508",
+    "type": "split",
+    "children": [
+      {
+        "id": "692258ede058c6e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0ff6baef108d00f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Instructions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Instructions"
+            }
+          },
+          {
+            "id": "9b155367b531dba7",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Writing Projects Homepage"
+            }
+          },
+          {
+            "id": "5cb70e31221074ea",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "f5e1296d2bab423e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Writing Projects Homepage"
+            }
+          },
+          {
+            "id": "1ca37ed9f4dcbf71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Writing Projects Homepage"
+            }
+          },
+          {
+            "id": "a21519ce214aeb29",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "82adee87c7996e3f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "965c0b088ad6503d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Writing/Writing Projects Homepage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Writing Projects Homepage"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "be1e728b1ab533b6",
+  "lastOpenFiles": [
+    "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "README.md",
+    "Instructions.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "Writing/Test Writing Project/👫 Characters/Bob.md",
+    "Templates/Writing Project Template.md",
+    "Writing/Writing Projects Homepage.md",
+    "Templates/New Draft Template.md",
+    "Templates/Scene Template.md",
+    "Writing/Test Writing Project/📝 Draft 1",
+    "Templates/Writing Planning Template.md",
+    "Templates/Character Template.md",
+    "Templates/Writing Template.md",
+    "Writing/Test Writing Project/👫 Characters",
+    "Writing/Test Writing Project",
+    "Writing",
+    "New folder",
+    "Templates",
+    "snippets"
+  ]
+}

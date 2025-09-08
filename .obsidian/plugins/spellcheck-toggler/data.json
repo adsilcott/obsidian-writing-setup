@@ -1,0 +1,26 @@
+{
+  "externalLinks": {
+    "behaviour": "global"
+  },
+  "internalLinks": {
+    "behaviour": "global"
+  },
+  "bareLinks": {
+    "behaviour": "global"
+  },
+  "htmlComments": {
+    "behaviour": "default"
+  },
+  "anyNode": {
+    "behaviour": "default"
+  },
+  "emphasis": {
+    "behaviour": "default"
+  },
+  "strong": {
+    "behaviour": "default"
+  },
+  "blockquote": {
+    "behaviour": "default"
+  }
+}

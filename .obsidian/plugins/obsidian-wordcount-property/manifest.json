@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-wordcount-property",
+	"name": "Word Count Property",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Updates a property with the note's word count.",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
