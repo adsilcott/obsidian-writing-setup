@@ -28,6 +28,8 @@ views:
     sort:
       - property: priority
         direction: DESC
+      - property: file.mtime
+        direction: DESC
       - property: writing_project_title
         direction: ASC
     columnSize:

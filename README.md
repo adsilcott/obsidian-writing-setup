@@ -1,6 +1,6 @@
 This is an example vault showing how I set up a custom writing environment in Obsidian. 
 
-If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the Vault manager. From there you can move parts of it to your own vault, but be warned that some parts tie together and might not function if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the Minimal theme
+If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the Vault manager. From there you can try it out, and move it to your own vault if you like it. Be warned that some parts tie together and might not function if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the [Minimal](https://github.com/kepano/obsidian-minimal) theme
 
 # Plugins
 
@@ -31,15 +31,13 @@ It uses a few custom templates that are the heart of the system.
 
 I spend a lot of time staring at a writing page, so I want it to be beautiful and functional. This snippet has been a work in project for years, though I will say that I'm no expert on css, so feel free to let me know if there's a better way to do some of this. 
 
-It makes the writing area an attractive dark on light (not harsh black on white) page that draws your attention to it and helps to differentiate the writing pages from other note pages. It loosely approximates the printed page by allowing for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is the best writing font out there. Horizontal lines become centered three-dot separators. Line lengths are capped at a logical length for easier reading.
+It makes the writing area an attractive dark on light (not harsh black on white) page that draws your attention to it and helps to differentiate the writing pages from other note pages. It loosely approximates the printed page by limiting line width and allowing for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is the best writing font out there. Horizontal rules become centered three-dot separators. Internal links blend into the rest of the text until hovered over. 
 ## hide_properties.css
 
 Optional, but I think it's nice to hide the properties on scene pages so you can focus on the text you're writing. Hover over the property title to see and edit them. 
 
 # History
 
-I've used several writing programs over the years, including the popular Scrivener, but I always wanted something that was more customizable and integrated with my research notes. Obsidian had that, and at first the Longform plugin served as the framework for organizing my writing projects. Give it a try, you might like it! 
-
-I found that over time Longform wasn't quite what I wanted (that and it had persistent problems with losing my scene order on sync), so I set out to make my own ultimate writing environment. Through a few novel drafts and dozens of short stories, I've continued to tweak my system, eventually ending up with what you see here.
+I've used several writing programs over the years, including the popular Scrivener, but I always wanted something that was more customizable and integrated with my research notes. Obsidian had that, and at first the Longform plugin served as the framework for organizing my writing projects. Give it a try, you might like it! I found that over time Longform wasn't quite what I wanted (that, and it had persistent problems with losing my scene order on sync), so I set out to make my own ultimate writing environment. Through a few novel drafts and dozens of short stories, I've continued to tweak my system, eventually ending up with what you see here.
 
 
