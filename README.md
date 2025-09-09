@@ -32,7 +32,7 @@ It uses a few custom templates that are the heart of the system.
 I spend a lot of time staring at a writing page, so I want it to be beautiful and functional. This snippet has been a work in project for years, though I will say that I'm no expert on css, so feel free to let me know if there's a better way to do some of this. 
 
 It makes the writing area an attractive dark on light (not harsh black on white) page that draws your attention to it and helps to differentiate the writing pages from other note pages. It loosely approximates the printed page by limiting line width and allowing for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is the best writing font out there. Horizontal rules become centered three-dot separators. Internal links blend into the rest of the text until hovered over. 
-## hide_properties.css
+### hide_properties.css
 
 Optional, but I think it's nice to hide the properties on scene pages so you can focus on the text you're writing. Hover over the property title to see and edit them. 
 
