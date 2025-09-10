@@ -8,7 +8,7 @@ writing_project_title: <% projectName %>
 priority:
 status:
 cssclasses:
-  - writing-project
+  - hide-dataview-error
 kanban-plugin: list
 ---
 

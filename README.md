@@ -1,6 +1,6 @@
-This is an example vault showing how I set up a custom writing environment in Obsidian. 
+This is an example vault showing how I set up a custom writing environment in Obsidian. I hope it can serve as inspiration for people looking for ideas to setup or improve their writing environment in Obsidian. 
 
-If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the Vault manager. From there you can try it out, and move it to your own vault if you like it. Be warned that some parts tie together and might not function if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the [Minimal](https://github.com/kepano/obsidian-minimal) theme
+If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the Vault manager. From there you can try it out and move it to your own vault if you like it. Feel free to customize it, but be warned that some parts tie together and might not function right if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the [Minimal](https://github.com/kepano/obsidian-minimal) theme
 
 # Plugins
 
@@ -34,9 +34,9 @@ I spend a lot of time staring at a writing page, so I want it to be beautiful an
 It makes the writing area an attractive dark on light (not harsh black on white) page that draws your attention to it and helps to differentiate the writing pages from other note pages. It loosely approximates the printed page by limiting line width and allowing for single line paragraph separation with indentation. It embeds the [IaWriter Duo font](https://ia.net/topics/in-search-of-the-perfect-writing-font) which is the best writing font out there. Horizontal rules become centered three-dot separators. Internal links blend into the rest of the text until hovered over. 
 ### hide_properties.css
 
-Optional, but I think it's nice to hide the properties on scene pages so you can focus on the text you're writing. Hover over the property title to see and edit them. 
+Optional, but I think it's nice to hide the properties on scene pages so you can focus on the text you're writing. Hover over the property title to see and edit them, or open the Properties tab. 
 
-### writing_project.css
+### hide_dataview_error.css
 
 This just hides the dataview error boxes on the project page.
 

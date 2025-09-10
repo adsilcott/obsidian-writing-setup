@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f721b8615d0713a7",
+        "id": "e2cf96241c62d942",
         "type": "tabs",
         "children": [
           {
-            "id": "a868520b541cd748",
+            "id": "87655916b85e5dfc",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "list",
-                  "list-collapse": []
-                }
+                "file": "Writing/Writing Projects Homepage.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Test Writing Project - Project"
+              "icon": "lucide-file",
+              "title": "Writing Projects Homepage"
             }
           }
         ]
@@ -80,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316.5
   },
   "right": {
     "id": "4293dd4439d4d508",
@@ -162,35 +160,6 @@
             }
           },
           {
-            "id": "a21519ce214aeb29",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "82adee87c7996e3f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "965c0b088ad6503d",
             "type": "leaf",
             "state": {
@@ -224,14 +193,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a868520b541cd748",
+  "active": "87655916b85e5dfc",
   "lastOpenFiles": [
-    "Templates/Writing Project Template.md",
-    "Writing/Test Writing Project/Test Writing Project - Project.md",
-    "Writing/Writing Projects Homepage.md",
-    "README.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
     "Instructions.md",
+    "Writing/Writing Projects Homepage.md",
+    "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "README.md",
+    "Templates/Writing Project Template.md",
     "Templates/Writing Template.md",
     "Writing/Test Writing Project/👫 Characters/Bob.md",
     "Templates/New Draft Template.md",

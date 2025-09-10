@@ -1,11 +1,13 @@
 ---
+
 up: "[[Writing Projects Homepage]]"
 writing_project_title: Test Writing Project
 priority:
 status: in progress
 cssclasses:
-  - writing-project
+  - hide-dataview-error
 kanban-plugin: list
+
 ---
 
 ## 📝 Draft 1<br>```dataview<br>TABLE WITHOUT ID "Word Count: " + sum(rows.word_count) AS ""<br>FROM "Writing/Test Writing Project/📝 Draft 1"<br>WHERE word_count<br>GROUP BY true<br>```

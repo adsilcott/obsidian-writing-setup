@@ -3,7 +3,8 @@
     "writing_style",
     "writing_character",
     "hide_properties",
-    "writing_project"
+    "writing_project",
+    "hide_dataview_error"
   ],
   "theme": "obsidian"
 }

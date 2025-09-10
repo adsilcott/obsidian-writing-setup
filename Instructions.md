@@ -18,7 +18,7 @@ To start a new draft click "Add Draft" under the Project list. After you enter a
 [note::Add note text here] 
 ```
 
-At the top of the Draft list is a Dataview box which is empty, but will display the word count for the draft once you start.
+At the top of the Draft list is a Dataview that will display the word count for the draft once you start writing.
 
 Once you have some scenes created you can use this list to find scenes and rearrange the order.
 
