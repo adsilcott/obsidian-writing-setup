@@ -1,6 +1,6 @@
 This is an example vault showing how I set up a custom writing environment in Obsidian. I hope it can serve as inspiration for people looking for ideas to setup or improve their writing environment in Obsidian. 
 
-If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the Vault manager. From there you can try it out and move it to your own vault if you like it. Feel free to customize it, but be warned that some parts tie together and might not function right if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the [Minimal](https://github.com/kepano/obsidian-minimal) theme
+If you want to try it, I suggest downloading it and unzipping it, then use the "Open folder as vault" option in the vault manager. From there you can try it out and move it to your own vault if you like. Because it's not a plugin it's designed to be transparent and customizable, but be warned that some parts tie together and might not function right if separated. Also, some things will look different depending on the theme you use, and the writing-style.css snippet might have to be modified. In my own vault I've tested it with the [Minimal](https://github.com/kepano/obsidian-minimal) theme.
 
 # Plugins
 

@@ -173,6 +173,35 @@
               "icon": "lucide-list",
               "title": "Outline of Writing Projects Homepage"
             }
+          },
+          {
+            "id": "7768cf0e6e38557b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8f42c0973aeab1db",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
@@ -195,19 +224,21 @@
   },
   "active": "87655916b85e5dfc",
   "lastOpenFiles": [
-    "Instructions.md",
+    "Templates/Writing Project Template.md",
     "Writing/Writing Projects Homepage.md",
     "Writing/Test Writing Project/Test Writing Project - Project.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
-    "README.md",
-    "Templates/Writing Project Template.md",
-    "Templates/Writing Template.md",
-    "Writing/Test Writing Project/👫 Characters/Bob.md",
-    "Templates/New Draft Template.md",
     "Templates/Scene Template.md",
-    "Writing/Test Writing Project/📝 Draft 1",
-    "Templates/Writing Planning Template.md",
+    "Writing/Test Writing Project/Speculair D1.docx.md",
+    "Templates/New Draft Template.md",
+    "Templates/Writing Template.md",
     "Templates/Character Template.md",
+    "Templates/Writing Planning Template.md",
+    "README.md",
+    "Speculair D1.md",
+    "Instructions.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "Writing/Test Writing Project/👫 Characters/Bob.md",
+    "Writing/Test Writing Project/📝 Draft 1",
     "Writing/Test Writing Project/👫 Characters",
     "Writing/Test Writing Project",
     "Writing",

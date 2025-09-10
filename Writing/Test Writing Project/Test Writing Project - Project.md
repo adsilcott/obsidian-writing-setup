@@ -19,14 +19,38 @@ kanban-plugin: list
 
 - [ ] `INPUT[text:writing_project_title]` Project Title
 - [ ] `INPUT[text:status]` Status
-- [ ] ```meta-bind-button
-	style: primary
+- [ ] `BUTTON[add-draft,add-draft-from-compilation]`
+	```meta-bind-button
 	label: Add Draft
-	action:
-	 type: insertIntoNote
-	 line: contentStart
-	 value: "Templates/New Draft Template"
-	 templater: true
+	icon: ""
+	style: primary
+	class: ""
+	cssStyle: ""
+	backgroundImage: ""
+	tooltip: ""
+	id: add-draft
+	hidden: true
+	actions:
+	  - type: insertIntoNote
+	    line: 0
+	    value: Some text
+	    templater: false
+	```
+	```meta-bind-button
+	label: Add Draft From Compilation
+	icon: ""
+	style: primary
+	class: ""
+	cssStyle: ""
+	backgroundImage: ""
+	tooltip: ""
+	id: add-draft-from-compilation
+	hidden: true
+	actions:
+	  - type: insertIntoNote
+	    line: 0
+	    value: Some text
+	    templater: false
 	```
 
 
@@ -53,10 +77,14 @@ kanban-plugin: list
 
 
 
+## Import
+
+
+
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"list","list-collapse":[],"lane-width":260,"full-list-lane-width":true,"new-note-template":"Templates/Writing Template.md","metadata-keys":[{"metadataKey":"card_notes","label":"Notes","shouldHideLabel":true,"containsMarkdown":false},{"metadataKey":"synopsis","label":"Synopsis","shouldHideLabel":true,"containsMarkdown":false},{"metadataKey":"summary","label":"Summary","shouldHideLabel":true,"containsMarkdown":false}],"show-checkboxes":false}
+{"kanban-plugin":"list","list-collapse":[false],"lane-width":260,"full-list-lane-width":true,"new-note-template":"Templates/Writing Template.md","metadata-keys":[{"metadataKey":"card_notes","label":"Notes","shouldHideLabel":true,"containsMarkdown":false},{"metadataKey":"synopsis","label":"Synopsis","shouldHideLabel":true,"containsMarkdown":false},{"metadataKey":"summary","label":"Summary","shouldHideLabel":true,"containsMarkdown":false}],"show-checkboxes":false}
 ```
 %%
