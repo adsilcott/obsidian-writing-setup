@@ -12,6 +12,9 @@
 	max-width: 75ch !important;
     --text-selection: lightblue;
 	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color:grey;
 	caret-color: black !important;
 
 	.cm-line{

@@ -4,7 +4,7 @@ Open "Writing Projects Homepage". You can check out the test project or use the 
 Here you can see all writing projects created in this system. In the table you can rename them and set a status, and in the far left column you can enter a number. Higher numbers sort to the top, which can help you organize the list. If preferred you could sort my date modified, but note that only counts changes to the project page.
 
 #### Project Page
-Each project page is a kanban board (in vertical list mode) with several lists already created. You can add more lists and rearrange them however you like, just don't add any additional properties (they're hidden in kanban view anyway). For example you could add a Timeline list and add links to scenes and characters to help you plan your story flow. Note that you can collapse any lists/drafts you don't want to see to keep things organized. 
+Each project page is a kanban board (in vertical list mode so it can be placed in a sidebar) with several lists already created. You can add more lists and rearrange them however you like. For example you could add a Timeline list and add links to scenes and characters to help you plan your story flow. Note that you can collapse any lists/drafts you don't want to see to keep things organized. 
 
 All files for the project should be created from this page so the proper templates and properties can be added to them. This is done by adding cards, then using the "New note from card" option. More on this below.
 
@@ -45,11 +45,3 @@ To compile several chapters into one file for export, create a new card in the C
 Since the writing_style snippet encourages you to use single returns to separate paragraphs, those will show up incorrectly with most other styles. An important thing this compiler does is to add the extra lines back in between paragraphs so they read as separate. It also removes the frontmatter. 
 
 The resulting file will be ready to export to a docx or pdf using the Enhancing Export plugin (once Pandoc is installed).
-
-#### Extra Notes
-If you do want to add properties to the project page template, you will need to change the Add Draft meta-bind-button code. The line: X number must equal the number of lines starting from the first ---, to the first empty line after the properties, when viewed in source mode.
-```
-action:
-	line: 10 <-- This
-```
-

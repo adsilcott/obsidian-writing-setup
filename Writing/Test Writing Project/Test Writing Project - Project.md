@@ -18,11 +18,11 @@ kanban-plugin: list
 - [ ] `INPUT[text:writing_project_title]` Project Title
 - [ ] `INPUT[text:status]` Status
 - [ ] ```meta-bind-button
-	style: plain
+	style: primary
 	label: Add Draft
 	action:
 	 type: insertIntoNote
-	 line: 10
+	 line: contentStart
 	 value: "Templates/New Draft Template"
 	 templater: true
 	```

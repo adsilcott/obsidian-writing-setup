@@ -11,14 +11,16 @@
             "id": "a868520b541cd748",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
-                "mode": "source",
-                "source": false
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "Writing Projects Homepage"
+              "icon": "lucide-trello",
+              "title": "Test Writing Project - Project"
             }
           }
         ]
@@ -222,21 +224,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a0ff6baef108d00f",
+  "active": "a868520b541cd748",
   "lastOpenFiles": [
-    "Writing/Writing Projects Homepage.md",
+    "Templates/Writing Project Template.md",
     "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Writing/Writing Projects Homepage.md",
+    "README.md",
     "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
     "Instructions.md",
-    "README.md",
+    "Templates/Writing Template.md",
     "Writing/Test Writing Project/👫 Characters/Bob.md",
-    "Templates/Writing Project Template.md",
     "Templates/New Draft Template.md",
     "Templates/Scene Template.md",
     "Writing/Test Writing Project/📝 Draft 1",
     "Templates/Writing Planning Template.md",
     "Templates/Character Template.md",
-    "Templates/Writing Template.md",
     "Writing/Test Writing Project/👫 Characters",
     "Writing/Test Writing Project",
     "Writing",

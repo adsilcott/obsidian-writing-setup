@@ -36,6 +36,10 @@ It makes the writing area an attractive dark on light (not harsh black on white)
 
 Optional, but I think it's nice to hide the properties on scene pages so you can focus on the text you're writing. Hover over the property title to see and edit them. 
 
+### writing_project.css
+
+This just hides the dataview error boxes on the project page.
+
 # History
 
 I've used several writing programs over the years, including the popular Scrivener, but I always wanted something that was more customizable and integrated with my research notes. Obsidian had that, and at first the Longform plugin served as the framework for organizing my writing projects. Give it a try, you might like it! I found that over time Longform wasn't quite what I wanted (that, and it had persistent problems with losing my scene order on sync), so I set out to make my own ultimate writing environment. Through a few novel drafts and dozens of short stories, I've continued to tweak my system, eventually ending up with what you see here.
