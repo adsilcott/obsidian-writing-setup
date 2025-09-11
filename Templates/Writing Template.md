@@ -32,30 +32,21 @@ path = path.substring(0, path.lastIndexOf('/'));
 await tp.file.move(path + "/" + folder + "/" + tp.file.title);
 // Apply templates based on list
 
-// DRAFT
+let draft = 0;
+// Draft -- create scene
 if (folder.includes("Draft")) {
-	const draft = parseFloat(folder.replace("📝 Draft", ""));
+	draft = parseFloat(folder.replace("📝 Draft", "")); //Guess at chapter num
 	tR = await tp.file.include("[[Scene Template]]");
-	tp.hooks.on_all_templates_executed(async () => {
-		await app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
-			frontmatter['up'] = parentLink
-		    frontmatter['story'] = title
-			frontmatter['draft'] = draft
-			frontmatter['chapter'] = position //This is a guess based on position in list
-		});
-	});
 }
 
 // CHARACTER
 else if (folder.includes("Character")) {
 	tR = await tp.file.include("[[Character Template]]");
-	tp.hooks.on_all_templates_executed(UpdateMeta);
 }
 
 // PLANNING
 else if (folder.includes("Planning")) {
 	tR = await tp.file.include("[[Writing Planning Template]]");
-	tp.hooks.on_all_templates_executed(UpdateMeta);
 }
 
 // COMPILE
@@ -100,11 +91,15 @@ else if (folder.includes("Compil")) {
 	//Add path from this file
 }
 
-async function UpdateMeta(){
+// Fill in properties if present
+tp.hooks.on_all_templates_executed(async () => {
 	await app.fileManager.processFrontMatter(tp.config.target_file, frontmatter => {
-		frontmatter['up'] = parentLink
-		frontmatter['story'] = title
+		if ('up' in frontmatter) frontmatter['up'] = parentLink;
+		if ('story' in frontmatter) frontmatter['story'] = title;
+		if ('draft' in frontmatter) frontmatter['draft'] = draft;
+		//This is a guess based on position in list
+		if ('chapter' in frontmatter) frontmatter['chapter'] = position;
 	});
-}
+});
 
 -%>
