@@ -1,15 +1,4 @@
 
-```meta-bind-button
-style: primary
-label: Create New Project
-id: new-project
-hidden: true
-actions:
-  - type: templaterCreateNote
-    templateFile: "Templates/Writing Project Template.md"
-    folderPath: Writing
-    fileName: "Temp Project Name"
-```
 # Projects  `BUTTON[new-project]`
 
 ---
@@ -38,4 +27,16 @@ views:
       note.writing_project_title: 256
       note.status: 105
 
+```
+
+```meta-bind-button
+style: primary
+label: Create New Project
+id: new-project
+hidden: true
+actions:
+  - type: templaterCreateNote
+    templateFile: "Templates/Writing Project Template.md"
+    folderPath: Writing
+    fileName: "Temp Project Name"
 ```
