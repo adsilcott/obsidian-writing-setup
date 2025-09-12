@@ -15,43 +15,8 @@ kanban-plugin: list
 - [ ] [[Scene 1]]
 
 
-## Project
+## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```<br>```meta-bind-button<br>label: From Compilation<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```
 
-- [ ] `INPUT[text:writing_project_title]` Project Title
-- [ ] `INPUT[text:status]` Status
-- [ ] `BUTTON[add-draft,add-draft-from-compilation]`
-	```meta-bind-button
-	label: Add Draft
-	icon: ""
-	style: primary
-	class: ""
-	cssStyle: ""
-	backgroundImage: ""
-	tooltip: ""
-	id: add-draft
-	hidden: true
-	actions:
-	  - type: insertIntoNote
-	    line: 0
-	    value: Some text
-	    templater: false
-	```
-	```meta-bind-button
-	label: Add Draft From Compilation
-	icon: ""
-	style: primary
-	class: ""
-	cssStyle: ""
-	backgroundImage: ""
-	tooltip: ""
-	id: add-draft-from-compilation
-	hidden: true
-	actions:
-	  - type: insertIntoNote
-	    line: 0
-	    value: Some text
-	    templater: false
-	```
 
 
 ## 💡Planning

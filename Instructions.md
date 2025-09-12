@@ -10,10 +10,10 @@ All files for the project should be created from this page so the proper templat
 
 You can drag the tab this page is in to the sidebar if you like -- if you do it's a good idea to pin it with the tab context menu so any files you open from it open in a separate tab.
 
-The Project list contains some important cards. The Project Title and Status can be changed here, but you have to double click on the text, then click into the text box, make the change, then click the label and hit enter. This is a limitation of the plugins being used, so it's usually easier to switch back to the Writing Projects Homepage to make those changes. 
+The Title and Status can be changed from fields on the Project list.
 
 #### New Draft
-To start a new draft click "Add Draft" under the Project list. After you enter a number a new draft list will be created at the top of the page. The first card on the list is a special note item that can be moved to the "Notes" list, it simply displays any notes you've added to that draft in the form of: 
+To start a new draft click "Add Draft" in the Project list. After you enter a number a new draft list will be created at the top of the page. The first card on the list is a special note item that can be moved to the "Notes" list, it simply displays any notes you've added to that draft in the form of: 
 ```
 [note::Add note text here] 
 ```
