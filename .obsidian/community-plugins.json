@@ -2,5 +2,8 @@
   "templater-obsidian",
   "obsidian-kanban",
   "obsidian-meta-bind-plugin",
-  "dataview"
+  "dataview",
+  "obsidian-wordcount-property",
+  "typewriter-mode",
+  "obsidian-enhancing-export"
 ]

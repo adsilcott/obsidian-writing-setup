@@ -12,7 +12,6 @@ It uses the following community plugins:
 - [Typewriter Mode](https://github.com/davisriedel/obsidian-typewriter-mode) - Optional, but I like the typewriter scrolling feature which keeps the place where I'm writing at the center of the screen, closer to eye level. It's more feature-full than the other typewriter plugin.
 - [Enhancing Export](https://github.com/mokeyish/obsidian-enhancing-export) - I would say it's optional, but you do what to send what you write out into the world, right? Copying and pasting markdown rarely works like you want it to.
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview) - Used to track inline notes that I add to my writing to remind me to come back and fix something. Bases can't list inline properties.
-- [Spellcheck Toggler](https://github.com/julzerinos/spellcheck-toggler-obsidian-plugin) - Usually I don't want to see every spelling mistake highlighted in a rough draft. This plugin is a little buggy, but it lets you toggle spelling on and off with a property.
 - And a custom plugin I haven't released yet called Wordcount Property, which does what it says.
 
 # Templates
@@ -21,7 +20,7 @@ It uses a few custom templates that are the heart of the system.
 - Writing Project Template - Creates the custom kanban views for new writing projects
 - Writing Template - This is the important one, and the most complex. This and the following templates are used internally by the kanban board and are not intended to be used separately This is called from any note you create from the kanban project page, and it applies different templates depending on which list the note is generated from. It moves them to matching sub folders and fills out some of the properties.
 - New Draft Template - This gets inserted into the project kanban to create a new draft list.
-- Scene Template - Notes created from a draft kanban list will have this template applied. The story title, draft number, and a link to the project file will be automatically added in the properties. It will make a guess at the chapter number, which can be edited if you want to track that for your own use. It includes the writing css class that I describe below. It has properties used by the spellcheck plugin, set to disable by default, and one by a plugin I made that will update with the word count when focus switched away from the note.
+- Scene Template - Notes created from a draft kanban list will have this template applied. The story title, draft number, and a link to the project file will be automatically added in the properties. It will make a guess at the chapter number, which can be edited if you want to track that for your own use. It includes the writing css class that I describe below. It has a property used by a plugin I made that will update with the word count when focus switched away from the note.
 - Character Template - Notes created from the Character kanban list will have this template applied. I've added some properties that I use to help me flesh out a character, but those can be customized to suit the author.
 - Writing Planning Template - Optional. This is just there because I wanted my planning notes to link back to the project page.
 

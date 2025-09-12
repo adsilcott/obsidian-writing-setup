@@ -10,5 +10,6 @@ spellcheck: false
 word_count:
 cssclasses:
   - writing
+  - hidden-properties
 ---
 

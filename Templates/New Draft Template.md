@@ -4,13 +4,7 @@ const folder = tp.file.folder(true) + "/📝 Draft " + draft;
 const path = folder + "/";
 -%>
 
-## 📝 Draft <% draft %><br>```dataview<br>TABLE WITHOUT ID "Word Count: " + sum(rows.word_count) AS ""<br>FROM "<% folder %>"<br>WHERE word_count<br>GROUP BY true<br>```
-- [ ] Draft <% draft %> inline notes:
-    ```dataview
-	LIST note
-	FROM "<% folder %>"
-	WHERE note
-	```
+## 📝 Draft <% draft %><br>```dataview<br>LIST sum(rows.word_count)<br>FROM "<% folder %>"<br>WHERE word_count<br>GROUP BY "Word Count"<br>```<br>Inline Notes:<br>```dataview<br>LIST note<br>FROM "<% folder %>"<br>WHERE note<br>```
 
 
 
