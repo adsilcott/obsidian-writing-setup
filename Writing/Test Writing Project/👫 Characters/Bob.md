@@ -17,7 +17,6 @@ up: "[[Test Writing Project - Project]]"
 story: Test Writing Project
 type: character
 cssclasses:
-  - hidden-properties
 ---
 
 `INPUT[text:summary]` At a glance

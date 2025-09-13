@@ -97,7 +97,6 @@ else if (folder.includes("Compil")) {
 			tR += chapter.substring(chapter.indexOf('---', chapter.indexOf('---')+3)+3) + "\n\n---\n";
 		}
 	});
-	//Add path from this file
 }
 
 async function UpdateMeta(){

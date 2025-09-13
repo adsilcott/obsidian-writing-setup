@@ -17,7 +17,7 @@ up:
 story:
 type: character
 cssclasses:
-  - hidden-properties
+aliases:
 ---
 
 `INPUT[text:summary]` At a glance

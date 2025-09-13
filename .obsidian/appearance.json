@@ -4,7 +4,8 @@
     "writing_character",
     "hide_properties",
     "writing_project",
-    "hide_dataview_error"
+    "hide_dataview_error",
+    "property_style_a"
   ],
   "theme": "obsidian"
 }

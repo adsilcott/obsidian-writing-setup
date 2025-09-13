@@ -238,6 +238,7 @@
   },
   "active": "a0ff6baef108d00f",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Writing/Writing Projects Homepage.md",
     "Writing/Test Writing Project/Test Writing Project - Project.md",
     "Templates/Writing Template.md",
@@ -245,6 +246,31 @@
     "Templates/Scene Template.md",
     "Templates/Character Template.md",
     "Instructions.md",
+=======
+    "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Templates/Writing Project Template.md",
+    "Templates/New Draft From Compilation Template.md",
+    "Writing/Test Writing Project/Import/Speculair Imp1.md",
+    "Writing/Test Writing Project/Import",
+    "Templates/Writing Planning Template.md",
+    "Templates/New Draft Template.md",
+    "Templates/Writing Template.md",
+    "Writing/Test Writing Project/👫 Characters/Bob.md",
+    "Writing/Test Writing Project/👫 Characters/Alice.md",
+    "Templates/Character Template.md",
+    "Writing/Writing Projects Homepage.md",
+    "Instructions.md",
+    "README.md",
+    "Writing/gfdhgfh/gfdhgfh - Project.md",
+    "Writing/gfdhgfh",
+    "Writing/fdgfdg/fdgfdg - Project.md",
+    "Writing/fdgfdg",
+    "Writing/Test Writing Project/📝 Draft 2/gsdfgfd.md",
+    "Writing/Test Writing Project/📝 Draft 2",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "Templates/Scene Template.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
+>>>>>>> Stashed changes
     "Writing/Test Writing Project/💡Planning/ewrert.md",
     "Writing/Test Writing Project/👫 Characters/gfhgfhgfh.md",
     "Writing/Test Writing Project/📝 Draft 1/dsadasdsad.md",
@@ -252,6 +278,7 @@
     "Writing/Test Writing Project/📝 Draft 1/ewrewrwer.md",
     "Writing/Test Writing Project/Default/fdsfdf.md",
     "Writing/Test Writing Project/📝 Draft 1/fdsfdf.md",
+<<<<<<< Updated upstream
     "Writing/Test Writing Project/📝 Draft 1/tret4545.md",
     "Writing/Test Writing Project/📝 Draft 1/dsare.md",
     "Writing/Test Writing Project/📝 Draft 1/fdsarer.md",
@@ -264,15 +291,21 @@
     "Writing/Test Writing Project/👫 Characters/defdsfsdd.md",
     "Writing/Test Writing Project/📝 Draft 1/dsarrrrr.md",
     "Writing/Test Writing Project/👫 Characters/ngdhjgfg.md",
+=======
+>>>>>>> Stashed changes
     "Writing/Test Writing Project/💡Planning",
     "Writing/Test Writing Project/Default",
     "Default",
     "Writing/Test Writing Project/📝 Draft 1",
     "Writing/Test Writing Project/👫 Characters",
+<<<<<<< Updated upstream
     "Writing/Test Writing Project",
     "Writing",
     "New folder",
     "Templates",
     "snippets"
+=======
+    "Writing/Test Writing Project"
+>>>>>>> Stashed changes
   ]
 }
