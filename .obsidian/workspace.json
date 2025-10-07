@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9289287f90ac5ad",
+        "id": "428bf7a96dbe9a64",
         "type": "tabs",
         "children": [
           {
-            "id": "523522baf1414b66",
+            "id": "75ce246d0eb1ebe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -207,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,12 +222,23 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "523522baf1414b66",
+  "active": "75ce246d0eb1ebe5",
   "lastOpenFiles": [
-    "README.md",
-    "Writing/Writing Projects Homepage.md",
     "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "Writing/Writing Projects Homepage.md",
+    "Templates/Writing Template.md",
+    "README.md",
     "Instructions.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
+    "Untitled.base",
+    "Writing/Test Writing Project/📚 Compilations/C1.md",
+    "Writing/Test Writing Project/📚 Compilations/C3.md",
+    "Writing/Test Writing Project/📚 Compilations/C2.md",
+    "Writing/Test Writing Project/📚 Compilations/C5.md",
+    "Writing/Test Writing Project/📚 Compilations/C4.md",
+    "Writing/Test Writing Project/📚 Compilations",
+    "Test C1.md",
     "Templates/Writing Project Template.md",
     "Writing/gfdhgfh/gfdhgfh - Project.md",
     "Writing/gfdhgfh",
@@ -236,29 +247,17 @@
     "Templates/New Draft Template.md",
     "Writing/Test Writing Project/📝 Draft 2/gsdfgfd.md",
     "Writing/Test Writing Project/📝 Draft 2",
-    "Templates/Writing Template.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
     "Templates/Scene Template.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
     "Templates/Character Template.md",
     "Writing/Test Writing Project/💡Planning/ewrert.md",
     "Writing/Test Writing Project/👫 Characters/gfhgfhgfh.md",
     "Writing/Test Writing Project/📝 Draft 1/dsadasdsad.md",
     "Writing/Test Writing Project/👫 Characters/tyrttr.md",
     "Writing/Test Writing Project/📝 Draft 1/ewrewrwer.md",
-    "Writing/Test Writing Project/Default/fdsfdf.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsfdf.md",
-    "Writing/Test Writing Project/📝 Draft 1/tret4545.md",
-    "Writing/Test Writing Project/📝 Draft 1/dsare.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsarer.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsatrtr.md",
-    "Writing/Test Writing Project/📝 Draft 1/hgfhfghh.md",
     "Writing/Test Writing Project/💡Planning",
     "Writing/Test Writing Project/Default",
     "Default",
     "Writing/Test Writing Project/📝 Draft 1",
-    "Writing/Test Writing Project/👫 Characters",
-    "Writing/Test Writing Project",
-    "Writing"
+    "Writing/Test Writing Project/👫 Characters"
   ]
 }

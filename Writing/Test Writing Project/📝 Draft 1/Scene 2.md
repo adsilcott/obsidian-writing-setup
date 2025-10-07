@@ -7,9 +7,13 @@ chapter: 2
 synopsis:
 characters:
 spellcheck: false
-word_count: 10
+word_count: 20
 cssclasses:
   - writing
 ---
 
 Here are some more words to make a bigger story.
+
+---
+
+Put a empty line before and after horizontal breaks.

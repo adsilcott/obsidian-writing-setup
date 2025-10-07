@@ -7,13 +7,13 @@ chapter: 1
 synopsis: The beginning
 characters:
 spellcheck: false
-word_count: 80
+word_count: 92
 cssclasses:
   - writing
   - hidden-properties
 ---
 
-This is the beginning of a story about [[Bob]]. Suddenly something happened. [note:: I should figure this out later] Bob didn't like it. 
-Assuming this page is displaying properly, it should be dark on light text using the excellent iA Writer Duo font. 
+This is the beginning of a story about [[Bob]]. Suddenly something happened. [note:: I should figure this part out later] Bob didn't like it. 
+Assuming this page is displaying properly, it should be dark on light text using the excellent iA Writer Duo font. [note::When you no longer need an inline note, just delete it.]
 Paragraphs are created with a single return and are indented like you would find in a book. Lines are limited in length. 
 To see and edit properties, hover over the Properties label or open the Properties tab.
