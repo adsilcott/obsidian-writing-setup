@@ -38,8 +38,17 @@ A little trick: If you're unsure of a character name, you can create a note with
 The planning list is intended to contain any notes you make for your project, including outlines, research, random thoughts and ideas, or anything else. You can turn any of these into a note by using the usual "New note from card" option. This will apply a custom template with some properties auto filled. The template for planning notes can be changed in "Writing Planning Template".
 
 #### Compilation
-To compile several chapters into one file for export, create a new card in the Compilations list and do "New note from card". It will ask for a draft number, then it will combine all of the scene files in that draft list into one file. It ignores the "chapter" property numbers and instead uses the list order, so make sure your scenes are listed in the order you want them before you do this. 
+To compile several chapters into one file for export, create a new card in the Compilations list and do "New note from card". It will ask for a draft number, then it will combine all of the scene files in that draft list into one file. It ignores the "chapter" property numbers and instead uses the list order, so make sure your scenes are listed in the order you want them before you do this. Chapter names will be added as headers.
 
 Since the writing_style snippet encourages you to use single returns to separate paragraphs, those will show up incorrectly with most other styles. An important thing this compiler does is to add the extra lines back in between paragraphs so they read as separate. It also removes the frontmatter. 
 
 The resulting file will be ready to export to a docx or pdf using the Enhancing Export plugin (once Pandoc is installed).
+
+Note that if you import the docx into Google Docs, you'll probably want to make some adjustments to the formatting. Select all and go to Format-> Line and paragraph spacing->Custom spacing. I make Line spacing 1.5, and paragraph spacing 1 and 1. Then Format->Align and indent->Indentation options and set Left and Right to .5, and Special indent to First line 0.4 or so. Whew, that's a little nicer to read...
+
+#### Decompile
+A common workflow is to compile and export a draft as a .docx, then upload it to google docs so you can share it for review and suggestions. Often at this point I end up making a bunch of edits in Google Docs because that's easier than getting the document back into Obsidian, but that's not ideal. I made a Decompile function to help with this. It takes a Google Doc that's been exported to .md and converts it into separate chapters in a new draft folder. 
+
+Make sure the file you export from Google has the chapters indicated with first level headers like they are in the export, and that it has a name you won't confuse with other files in your project.
+
+When you're ready, add the exported file into the project folder and hit the Decompile button. It will ask for a draft number (don't forget to increment it) and then choose the file to import.

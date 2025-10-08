@@ -12,4 +12,3 @@ cssclasses:
   - writing
   - hidden-properties
 ---
-
