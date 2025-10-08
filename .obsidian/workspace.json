@@ -1,38 +1,28 @@
 {
   "main": {
-    "id": "785edc0e7647a45a",
+    "id": "b6387db3a0707932",
     "type": "split",
     "children": [
       {
-        "id": "a9289287f90ac5ad",
+        "id": "108f2fee0e4e07bd",
         "type": "tabs",
         "children": [
           {
-            "id": "523522baf1414b66",
+            "id": "f2a1b22402ea428f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
-                "mode": "source",
-                "source": false
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": [
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Writing Projects Homepage"
-            }
-          },
-          {
-            "id": "751e8bce3a6871e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Writing Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Writing Template"
+              "icon": "lucide-trello",
+              "title": "Test Writing Project - Project"
             }
           }
         ]
@@ -41,15 +31,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "41f236a0f93c1b90",
+    "id": "c7791a1ccd049b82",
     "type": "split",
     "children": [
       {
-        "id": "174dbc3988d3931f",
+        "id": "9f4e265eae610951",
         "type": "tabs",
         "children": [
           {
-            "id": "31e44ac1bc56babf",
+            "id": "c331643de5978c7e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +52,7 @@
             }
           },
           {
-            "id": "742b7068dee18842",
+            "id": "98b044531276a363",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +69,7 @@
             }
           },
           {
-            "id": "2971863dee31971c",
+            "id": "57f8cbe70bb582e5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,61 +82,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 300
   },
   "right": {
-    "id": "4293dd4439d4d508",
+    "id": "bc6deded6e575ee1",
     "type": "split",
     "children": [
       {
-        "id": "692258ede058c6e6",
+        "id": "d13a358f78532c01",
         "type": "tabs",
         "children": [
           {
-            "id": "a0ff6baef108d00f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Instructions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Instructions"
-            }
-          },
-          {
-            "id": "9b155367b531dba7",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Writing/Writing Projects Homepage.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for Writing Projects Homepage"
-            }
-          },
-          {
-            "id": "5cb70e31221074ea",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "Writing/Writing Projects Homepage.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "f5e1296d2bab423e",
+            "id": "aec22b2e03aa2e22",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,40 +108,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Writing Projects Homepage"
+              "title": "Backlinks for Test Writing Project - Project"
             }
           },
           {
-            "id": "1ca37ed9f4dcbf71",
+            "id": "9d8ec84641e5db7f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Writing Projects Homepage"
+              "title": "Outgoing links from Test Writing Project - Project"
             }
           },
           {
-            "id": "965c0b088ad6503d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Writing/Writing Projects Homepage.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Writing Projects Homepage"
-            }
-          },
-          {
-            "id": "7768cf0e6e38557b",
+            "id": "804b59d061abbd7b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -204,7 +141,7 @@
             }
           },
           {
-            "id": "8f42c0973aeab1db",
+            "id": "29b85ecfc4791f33",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -216,12 +153,28 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "e02bc7aa10481b30",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Test Writing Project - Project"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,76 +189,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a0ff6baef108d00f",
+  "active": "f2a1b22402ea428f",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Writing/Writing Projects Homepage.md",
-    "Writing/Test Writing Project/Test Writing Project - Project.md",
-    "Templates/Writing Template.md",
-    "Templates/Writing Project Template.md",
-    "Templates/Scene Template.md",
-    "Templates/Character Template.md",
-    "Instructions.md",
-=======
-    "Writing/Test Writing Project/Test Writing Project - Project.md",
-    "Templates/Writing Project Template.md",
-    "Templates/New Draft From Compilation Template.md",
-    "Writing/Test Writing Project/Import/Speculair Imp1.md",
-    "Writing/Test Writing Project/Import",
-    "Templates/Writing Planning Template.md",
     "Templates/New Draft Template.md",
-    "Templates/Writing Template.md",
-    "Writing/Test Writing Project/👫 Characters/Bob.md",
-    "Writing/Test Writing Project/👫 Characters/Alice.md",
-    "Templates/Character Template.md",
-    "Writing/Writing Projects Homepage.md",
-    "Instructions.md",
-    "README.md",
-    "Writing/gfdhgfh/gfdhgfh - Project.md",
-    "Writing/gfdhgfh",
-    "Writing/fdgfdg/fdgfdg - Project.md",
-    "Writing/fdgfdg",
-    "Writing/Test Writing Project/📝 Draft 2/gsdfgfd.md",
-    "Writing/Test Writing Project/📝 Draft 2",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
-    "Templates/Scene Template.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
->>>>>>> Stashed changes
-    "Writing/Test Writing Project/💡Planning/ewrert.md",
-    "Writing/Test Writing Project/👫 Characters/gfhgfhgfh.md",
-    "Writing/Test Writing Project/📝 Draft 1/dsadasdsad.md",
-    "Writing/Test Writing Project/👫 Characters/tyrttr.md",
-    "Writing/Test Writing Project/📝 Draft 1/ewrewrwer.md",
-    "Writing/Test Writing Project/Default/fdsfdf.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsfdf.md",
-<<<<<<< Updated upstream
-    "Writing/Test Writing Project/📝 Draft 1/tret4545.md",
-    "Writing/Test Writing Project/📝 Draft 1/dsare.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsarer.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdsatrtr.md",
-    "Writing/Test Writing Project/📝 Draft 1/hgfhfghh.md",
-    "Writing/Test Writing Project/📝 Draft 1/fdarer.md",
-    "Writing/Test Writing Project/📝 Draft 1/gfdhg.md",
-    "Writing/Test Writing Project/👫 Characters/fdsafesdf.md",
-    "Writing/Test Writing Project/👫 Characters/fdstertr.md",
-    "Writing/Test Writing Project/👫 Characters/defdsfsdd.md",
-    "Writing/Test Writing Project/📝 Draft 1/dsarrrrr.md",
-    "Writing/Test Writing Project/👫 Characters/ngdhjgfg.md",
-=======
->>>>>>> Stashed changes
-    "Writing/Test Writing Project/💡Planning",
-    "Writing/Test Writing Project/Default",
-    "Default",
-    "Writing/Test Writing Project/📝 Draft 1",
-    "Writing/Test Writing Project/👫 Characters",
-<<<<<<< Updated upstream
-    "Writing/Test Writing Project",
-    "Writing",
-    "New folder",
-    "Templates",
-    "snippets"
-=======
-    "Writing/Test Writing Project"
->>>>>>> Stashed changes
+    "Templates/New Draft From Compilation Template.md",
+    "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Templates/Decompile Template.md",
+    "Templates/Writing Template.md"
   ]
 }

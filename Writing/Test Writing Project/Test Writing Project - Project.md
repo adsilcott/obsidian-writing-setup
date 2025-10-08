@@ -15,15 +15,7 @@ kanban-plugin: list
 - [ ] [[Scene 1]]
 
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 ## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```<br>```meta-bind-button<br>label: From Compilation<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```
-=======
-## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>style: primary<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/New Draft Template"<br>    templater: true<br>```<br>```meta-bind-button<br>label: From Compilation<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/New Draft From Compilation Template"<br>    templater: true<br>```
->>>>>>> Stashed changes
-=======
-## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>style: primary<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/New Draft Template"<br>    templater: true<br>```<br>```meta-bind-button<br>label: Decompile<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/Decompile Template"<br>    templater: true<br>```
->>>>>>> Stashed changes
 
 
 
