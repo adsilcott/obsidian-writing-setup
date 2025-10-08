@@ -13,12 +13,10 @@ You can drag the tab this page is in to the sidebar if you like -- if you do it'
 The Title and Status can be changed from fields on the Project list.
 
 #### New Draft
-To start a new draft click "Add Draft" in the Project list. After you enter a number a new draft list will be created at the top of the page. The first card on the list is a special note item that can be moved to the "Notes" list, it simply displays any notes you've added to that draft in the form of: 
+To start a new draft click "Add Draft" in the Project list. After you enter a number a new draft list will be created at the top of the page. At the top of the Draft list is a Dataview that will display the total word count for the draft once you start writing and a list of any inline notes in that draft that you've added in the form of: 
 ```
 [note::Add note text here] 
 ```
-
-At the top of the Draft list is a Dataview that will display the word count for the draft once you start writing.
 
 Once you have some scenes created you can use this list to find scenes and rearrange the order.
 

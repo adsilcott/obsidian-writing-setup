@@ -12,23 +12,7 @@ cssclasses:
 kanban-plugin: list
 ---
 
-<<<<<<< Updated upstream
-## Project
-
-- [ ] `INPUT[text:writing_project_title]` Project Title
-- [ ] `INPUT[text:status]` Status
-- [ ] ```meta-bind-button
-	style: primary
-	label: Add Draft
-	action:
-	 type: insertIntoNote
-	 line: contentStart
-	 value: "Templates/New Draft Template"
-	 templater: true
-	```
-=======
-## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>style: primary<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/New Draft From Compilation Template"<br>    templater: true<br>```<br>```meta-bind-button<br>label: From Compilation<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```
->>>>>>> Stashed changes
+## Project `INPUT[text:writing_project_title]` Status:`INPUT[text:status]` `BUTTON[add-draft,add-draft-from-compilation]`<br>```meta-bind-button<br>label: Add Draft<br>style: primary<br>id: add-draft<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: contentStart<br>    value: "Templates/New Draft Template"<br>    templater: true<br>```<br>```meta-bind-button<br>label: From Compilation<br>icon: ""<br>style: primary<br>class: ""<br>cssStyle: ""<br>backgroundImage: ""<br>tooltip: ""<br>id: add-draft-from-compilation<br>hidden: true<br>actions:<br>  - type: insertIntoNote<br>    line: 0<br>    value: Some text<br>    templater: false<br>```
 
 
 
