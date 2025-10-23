@@ -1,0 +1,29 @@
+.scene-break .cm-content{
+    .HyperMD-header-2 {
+        color: var(--background-color) !important;
+        font-size: .9em;
+		margin: auto !important;
+        width: 40px !important;
+		overflow: visible;
+    	white-space: nowrap;
+		border-top: 8px dotted lightslategrey;
+		left: 0 !important;
+	}
+	.cm-active.HyperMD-header-2 {
+        color: lightSlateGrey !important;
+        margin:0 !important;
+        border-top: 0;
+	}
+	.HyperMD-header-2:has(.cm-foldPlaceholder) {
+		color: lightSlateGrey !important;
+		text-align: left;
+		position: relative;
+		margin: 0;
+        width: auto !important;
+		height: 3em;
+		overflow: auto;
+    	white-space: normal;
+		border-top: 0;
+		left: -1rem;
+	}
+}

@@ -19,16 +19,13 @@
 	border-style: solid;
 	border-color:grey;
 	caret-color: black !important;
+	--background-color: aliceblue;
 
 	.cm-line{
 		max-width: 30ch;
 	}
     
-    .cm-header {
-		
-    }
-
-	a {
+    a {
 		color: darkslategrey;
 	}
 
@@ -45,7 +42,7 @@
 	}
 	span.dataview.inline-field-value{
 		color: darkcyan;
-		background-color: aliceblue;
+		background-color: var(--background-color);
 		border: 1px solid darkcyan;
 		font-size: .8em;
 		font-family: 'iA Writer';
@@ -54,14 +51,19 @@
 	.HyperMD-header {
         color: lightSlateGrey;
         text-align: center;
+		position: relative;
+		left: -1rem;
 	}
-
+	
 	hr{
-		flex: 26px 0 0 !important;
+		border-top: 8px dotted lightslategrey;
+		flex: 40px 0 0 !important;
 		margin: 0 auto !important;
-		border: 3px dashed lightSlateGrey;
+		text-indent: -4em !important;
+		position: relative;
+		left: -1rem;
 	}
-
+	
 	.cm-comment{
 		color: aliceblue;
 		background-color: salmon;
@@ -80,7 +82,7 @@
 	
 }
 
-.writing .markdown-preview-section{
+/* .writing .markdown-preview-section{
 	--metadata-display-reading: none;
 	background-color: whitesmoke;
 	color: black;
@@ -104,5 +106,5 @@
 		border: 3px dashed black;
 		width: 26px;
 	}
-}
+} */
 

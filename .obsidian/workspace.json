@@ -11,14 +11,16 @@
             "id": "f2a1b22402ea428f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
-                "mode": "source",
-                "source": false
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "list",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "Writing Projects Homepage"
+              "icon": "lucide-trello",
+              "title": "Test Writing Project - Project"
             }
           }
         ]
@@ -103,51 +105,18 @@
             }
           },
           {
-            "id": "aec22b2e03aa2e22",
+            "id": "e02bc7aa10481b30",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "Writing/Writing Projects Homepage.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Writing Projects Homepage"
-            }
-          },
-          {
-            "id": "9d8ec84641e5db7f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Templates/Decompile Template.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Decompile Template"
-            }
-          },
-          {
-            "id": "804b59d061abbd7b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-list",
+              "title": "Outline of Test Writing Project - Project"
             }
           },
           {
@@ -165,25 +134,58 @@
             }
           },
           {
-            "id": "e02bc7aa10481b30",
+            "id": "aec22b2e03aa2e22",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "Templates/Decompile Template.md",
-                "followCursor": false,
+                "file": "Writing/Test Writing Project/Test Writing Project - Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Test Writing Project - Project"
+            }
+          },
+          {
+            "id": "9d8ec84641e5db7f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Writing Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Writing Template"
+            }
+          },
+          {
+            "id": "804b59d061abbd7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Decompile Template"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 242.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,19 +202,22 @@
   },
   "active": "f2a1b22402ea428f",
   "lastOpenFiles": [
-    "Templates/Writing Project Template.md",
+    "Instructions.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
+    "Writing/Test Writing Project/Test Writing Project - Project.md",
+    "Writing/Test Writing Project/📚 Compilations/C2f.md",
+    "Templates/Writing Template.md",
     "Writing/Writing Projects Homepage.md",
+    "Writing/Test Writing Project/📝 Draft 1/Scene 1.md",
+    "Templates/Scene Template.md",
+    "Templates/Writing Project Template.md",
     "Writing/Test2/Test2 - Project.md",
     "Writing/Test2",
-    "Writing/Test Writing Project/Test Writing Project - Project.md",
-    "Instructions.md",
     "Writing/Test Writing Project/📝 Draft 2/Scene 2.md",
     "Writing/Test Writing Project/📝 Draft 2/Scene 1.md",
     "Writing/Test Writing Project/📝 Draft 2",
-    "Templates/Scene Template.md",
     "Templates/Decompile Template.md",
     "Writing/Test Writing Project/CompilationTest.docx.md",
-    "Templates/Writing Template.md",
     "Writing/Test Writing Project/📝 Draft 2/Untitled.md",
     "Writing/Test Writing Project/📝 Draft 2/Scene 2 1.md",
     "Writing/Test Writing Project/📝 Draft 2/Scene 1 1.md",
@@ -221,7 +226,6 @@
     "Writing/Test Writing Project/📝 Draft 2/Scene 2 2.md",
     "Writing/Test Writing Project/📝 Draft 2/Scene 1 2.md",
     "Writing/Test Writing Project/📚 Compilations/C1.md",
-    "Writing/Test Writing Project/📝 Draft 1/Scene 2.md",
     "Templates/New Draft Template.md",
     "Templates/New Draft From Compilation Template.md"
   ]

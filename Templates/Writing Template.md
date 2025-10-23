@@ -80,16 +80,24 @@ else if (folder.includes("Compil")) {
 			console.log(path);
 			const chapterFile = tp.file.find_tfile(path);
 			let chapter = await app.vault.cachedRead(chapterFile);
-			//Add extra newline to separate paragraphs
+			//Modify markdown for export
+			//Remove frontmatter
+			chapter = chapter.substring(chapter.indexOf('---', chapter.indexOf('---')+3)+3).trim();
+			//Check for a chapter titled with a heading
+			let firstLine = chapter.substring(0, chapter.indexOf("\n"));
+			chTitle = "";
+			if (!firstLine.startsWith("# "))
+				chTitle = "# " + chapterFile.basename;
+			//Add extra newlines to separate paragraphs
 			chapter = chapter.replace(/\n/g,"\n\n");
 			//Remove internal link brackets
 			chapter = chapter.replace(/\[\[/g, "").replace(/\]\]/g, "");
 			//Remove notes
 			chapter = chapter.replace(/\[note::.*\]/g, "");
+			//Convert level 2 headers to hr
+			chapter = chapter.replace(/##.*/g, "---");
 			//Chapter title as header
-			tR += "\n\n\n# " + chapterFile.basename;
-			//Remove frontmatter
-			tR += chapter.substring(chapter.indexOf('---', chapter.indexOf('---')+3)+3);// + "\n\n---\n";
+			tR += "\n\n\n" + chTitle + "\n" + chapter;
 		}
 	});
 }

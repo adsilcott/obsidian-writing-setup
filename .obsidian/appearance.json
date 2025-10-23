@@ -5,7 +5,8 @@
     "hide_properties",
     "writing_project",
     "hide_dataview_error",
-    "property_style_a"
+    "property_style_a",
+    "heading_scene_breaks"
   ],
   "theme": "obsidian"
 }

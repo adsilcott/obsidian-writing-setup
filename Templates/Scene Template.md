@@ -11,4 +11,5 @@ word_count:
 cssclasses:
   - writing
   - hidden-properties
+  - scene-break
 ---
